@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de cadastro</title>
+    <link rel="stylesheet" href="estilos/cadastro-style.css">
+</head>
+<body>
+    <main>
+        <section id="newuser">
+            <h1>Cadastro </h1>
+            <div id="formulario">
+                <form action="usuariocadastrado.html" method="post" autocomplete="none">
+                    <div class="campo-cadastro">
+                        <input type="text" name="primero-nome" id="iprimeiro-nome" required >
+                        <label for="iprimeiro-nome">Primeiro Nome</label>
+                    </div>
+                    <div class="campo-cadastro">
+                        <input type="text" name="sobrenome" id="isobrenome" required>
+                        <label for="isobrenome">Sobrenome</label>
+                    </div>
+                    <div class="campo-cadastro">
+                        <input type="email" name="email" id="iemail" required>
+                        <label for="iemail">Email</label>
+                    </div>
+                    <div class="campo-cadastro">
+                        <input type="password" name="senha1" id="isenha1" required>
+                        <label for="isenha1">Senha</label>
+                    </div>
+                    <div class="campo-cadastro">
+                        <input type="password" name="senha2" id="isenha2" required>
+                        <label for="isenha2">Confirme sua senha</label>
+                    </div>
+                   
+                </form>
+                
+            </div>
+            <a href="parabens.html"><input id="botao" type="submit" value="Cadastrar" ></a>
+        </section>
+    </main>
+    
+</body>
+</html>
