@@ -13,6 +13,10 @@ Paleta de cores:
     box-sizing: border-box;
 }
 
+body {
+    background-image: linear-gradient( to top, #12ece5, #b683d8);
+}
+
 body, html {
     background-color: blueviolet;
     width: 100vw;
@@ -31,10 +35,12 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    width: 350px;
-    height: 650px;
+    width: 340px;
+    height: 640px;
     border-radius: 15px;
     box-shadow: 0px 0px 10px black;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
@@ -50,3 +56,4 @@ section#login > div#formulario {
     padding: 10px;
     text-align: center;
 }
+
